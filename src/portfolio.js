@@ -205,7 +205,7 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag404 (1).png"),
+      companylogo: require("./assets/images/hashtag404.png"),
       date: "Jan 2023 – Present",
       desc: "I am a web developer at Hashtag 404, specializing in React.js, Next.js, Node.js(Basic), MongoDB, Github, CSS, and HTML. With a focus on creating seamless user interfaces and visually appealing designs, I strive to deliver exceptional web experiences. Let's collaborate on innovative projects that exceed expectations."
     },
@@ -234,7 +234,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/hashtag404 (1).png"),
+      image: require("./assets/images/hashtag404.png"),
       projectName: "Hashtag 404",
       projectDesc: "Innovative web development company specializing in React.js, Next.js, Node.js, CSS, and HTML, delivering exceptional digital experiences.",
       footerLink: [
@@ -246,7 +246,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Quiz-app (1).png"),
+      image: require("./assets/images/Quiz-app.png"),
       projectName: "Quiz",
       projectDesc: "Developed a React.js quiz app with multiple-choice questions that tests user's knowledge and displays their marks.",
       footerLink: [
@@ -265,7 +265,7 @@ const upcommingProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Recipe-app (1).png"),
+      image: require("./assets/images/Recipe-app.png"),
       projectName: "Recipe Share",
       projectDesc: "Recipe Share: A React.js app enabling users to share and discover delicious recipes, fostering culinary inspiration and community.",
       // footerLink: [
@@ -277,7 +277,7 @@ const upcommingProjects = {
       // ]
     },
     {
-      image: require("./assets/images/myhelper (1).png"),
+      image: require("./assets/images/myhelper.png"),
       projectName: "MyHelper",
       projectDesc: "An app connecting users with local service providers, facilitating efficient hiring of plumbers, mechanics, and drivers based on location.",
       // footerLink: [
