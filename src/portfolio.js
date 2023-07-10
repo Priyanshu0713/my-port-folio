@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nextjs / Nodejs / HTML / CSS  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ny6D4CrCgn2uCDX6zvPaIvtLTtc13LaY/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1I8IZFTbSJlHsxfQmXS6VRqYDkBZAwRi0/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -205,7 +205,7 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag.JPG"),
+      companylogo: require("./assets/images/hashtag404.JPG"),
       date: "Jan 2023 – Present",
       desc: "I am a web developer at Hashtag 404, specializing in React.js, Next.js, Node.js(Basic), MongoDB, Github, CSS, and HTML. With a focus on creating seamless user interfaces and visually appealing designs, I strive to deliver exceptional web experiences. Let's collaborate on innovative projects that exceed expectations."
     },
@@ -248,7 +248,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Quiz-app.JPG"),
       projectName: "Quiz",
-      projectDesc: "Developed a React.js quiz app that tests users' knowledge with multiple-choice questions. Utilized React components, state management, and conditional rendering to create an interactive and engaging quiz experience.",
+      projectDesc: "Developed a React.js quiz app with multiple-choice questions that tests user's knowledge and displays their marks.",
       footerLink: [
         {
           name: "Visit Website",
