@@ -205,7 +205,7 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag404.JPG"),
+      companylogo: require("./assets/images/hashtag404.png"),
       date: "Jan 2023 – Present",
       desc: "I am a web developer at Hashtag 404, specializing in React.js, Next.js, Node.js(Basic), MongoDB, Github, CSS, and HTML. With a focus on creating seamless user interfaces and visually appealing designs, I strive to deliver exceptional web experiences. Let's collaborate on innovative projects that exceed expectations."
     },
@@ -339,7 +339,7 @@ const achievementSection = {
     {
       title: "Web Developer",
       subtitle: "Completed Certifcation from Hashtag 404 for Web Development",
-      image: require("./assets/images/hashtag404.JPG"),
+      image: require("./assets/images/hashtag404.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/1Lr-2eXt1rzwhtyqy_XcEL_gYZdH_FlDL/view?usp=sharing" },
