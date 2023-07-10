@@ -100,7 +100,7 @@ if (MEDIUM_USERNAME !== undefined) {
     hostname: "api.rss2json.com",
     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
     port: 443,
-    method: "GET"
+    // method: "GET"
   };
 
   const req = https.request(options, res => {
