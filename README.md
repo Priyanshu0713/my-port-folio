@@ -20,6 +20,7 @@ This portfolio serves as a window into my professional world. It's a testament t
 - CSS
 - JavaScript
 - React.js
+- lottie files
 - [Add any other technologies or libraries used]
 
 ## Getting Started
