@@ -1,4 +1,3 @@
-﻿# My-Portfolio
 # Personal Portfolio
 
 Welcome to my personal portfolio repository! This portfolio is a reflection of my journey, skills, and passion for web development and beyond.
