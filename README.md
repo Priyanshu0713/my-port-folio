@@ -23,7 +23,7 @@ This portfolio serves as a window into my professional world. It's a testament t
 
 ## Getting Started
 
-To view my portfolio, simply visit [Priyanshu.us](http://priyanshu.us/). Alternatively, you can clone this repository and run it locally on your machine.
+To view my portfolio, simply visit [priyanshu.us](http://priyanshu.us/). Alternatively, you can clone this repository and run it locally on your machine.
 
 ```bash
 git clone [repository URL]
