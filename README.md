@@ -26,7 +26,7 @@ This portfolio serves as a window into my professional world. It's a testament t
 To view my portfolio, simply visit [priyanshu.us](http://priyanshu.us/). Alternatively, you can clone this repository and run it locally on your machine.
 
 ```bash
-git clone [repository URL]
-cd [repository directory]
+git clone https://github.com/Priyanshu0713/my-port-folio.git
+cd my-port-folio
 npm install
 npm start
