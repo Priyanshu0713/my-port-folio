@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyanshu Singh",
   title: "Hi all, I'm Priyanshu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nextjs / Nodejs / HTML / CSS  and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nextjs / HTML / CSS / Material-UI / Chakra-UI and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1RyBKw4GZf5rny7BLg-R4nK5qFP35_oCg/view?usp=sharing", // Set to empty to hide the button
@@ -36,12 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/Priyanshu0713",
   linkedin: "https://www.linkedin.com/in/priyanshu-kumar-singh-ba551b24b/",
   gmail: "priyanshusingh8518@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@713priyanshusingh",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  fiverr: "https://www.fiverr.com/priyanshu0713",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -75,17 +71,17 @@ https://fontawesome.com/icons?d=gallery */
       // fontAwesomeClassname: "fa-brands fa-js"
     },
     {
-      skillName: "NodeJs(Basic)",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
     },
-    {
-      skillName: "ExpressJs(Basic)",
-      fontAwesomeClassname: "fas fa-server"
-    },
-    {
-      skillName: "MongoDB(Basic)",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "ExpressJs(Basic)",
+    //   fontAwesomeClassname: "fas fa-server"
+    // },
+    // {
+    //   skillName: "MongoDB(Basic)",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "Html",
       fontAwesomeClassname: "fab fa-html5"
@@ -97,10 +93,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C",
       fontAwesomeClassname: "fas fa-laptop-code"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "Github",
@@ -118,14 +110,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "VScode",
       fontAwesomeClassname: "fab fa-microsoft"
     },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: "fab fa-gripfire"
+    },
+    {
+      skillName: "Material-UI",
+      fontAwesomeClassname: "fas fa-book-open"
+    },
+    {
+      skillName: "Chakra-UI",
+      fontAwesomeClassname: "fas fa-cut"
+    },
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "fab fa-docker"
@@ -148,7 +144,6 @@ const educationInfo = {
       desc: "Skills :",
       descBullets: [
         "React.js · Next.js · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML) · C (Programming Language)",
-        "MySQL · Database Management System (DBMS)"
       ]
     },
     {
@@ -158,8 +153,7 @@ const educationInfo = {
       duration: "April 2018 - April 2021",
       desc: "Skills :",
       descBullets: [
-        "Visual Studio · Microsoft Word · Microsoft PowerPoint · Microsoft Excel · Microsoft Office",
-        "· Event Planning · Event Management "
+        "Visual Studio · Microsoft Word · Microsoft PowerPoint · Microsoft Excel · Microsoft Office · Event Planning · Event Management "
       ]
     }
   ]
@@ -203,19 +197,26 @@ const workExperiences = {
     //   ]
     // },
     {
+      role: "Web Developer",
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverr.png"),
+      date: "July 2023 - Present",
+      desc: "Just started my freelancing journey on Fiverr.com, specializing in web development.Ready to tackle web projects, I'm passionate about creating stunning and functional websites that meet your needs. Whether it's a personal blog, a business site, or an e-commerce platform, I'm here to bring your vision to life. I'm dedicated to delivering top-notch web solutions. Let's work together to build something amazing!Ready to turn your web ideas into reality!"
+    },
+    {
+      role: "Technical Blogger",
+      company: "Hashnode",
+      companylogo: require("./assets/images/hashnode.jpg"),
+      date: "July 2023 - Present",
+      desc: "I've just embarked on my freelancing adventure on Hashnode.com, where I delve into cutting-edge technologies, explore the latest AI tools, discuss cybersecurity trends, and dive deep into various development languages. Join me on a journey to discover the ever-evolving world of tech, as we explore, learn, and innovate together. Stay informed and inspired with my regular updates!"
+    },
+    {
       role: "Front-End Developer",
       company: "Hashtag 404",
       companylogo: require("./assets/images/hashtag404.png"),
-      date: "Jan 2023 – Present",
-      desc: "I am a web developer at Hashtag 404, specializing in React.js, Next.js, Node.js(Basic), MongoDB, Github, CSS, and HTML. With a focus on creating seamless user interfaces and visually appealing designs, I strive to deliver exceptional web experiences. Let's collaborate on innovative projects that exceed expectations."
+      date: "Jan 2023 – July 2023",
+      desc: "I work as a web developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
     },
-    {
-      role: "Trainee",
-      company: "Simplilearn",
-      companylogo: require("./assets/images/simplilearn.png"),
-      date: "Jan 2019 - Apr 2019",
-      desc: "As a graduate of Simplilearn's C Programming training course, I have a strong foundation in the C programming language. Through the course, I gained hands-on experience with fundamental programming concepts, including data types, operators, control structures, functions, arrays, and pointers."
-    }
   ]
 };
 
@@ -236,7 +237,7 @@ const bigProjects = {
     {
       image: require("./assets/images/hashtag404.png"),
       projectName: "Hashtag 404",
-      projectDesc: "Innovative web development company specializing in React.js, Next.js, Node.js, CSS, and HTML, delivering exceptional digital experiences.",
+      projectDesc: "The hashtag404 website is a harmonious blend of web development technologies . React.js and Next.js grace the front-end with their magic , conjuring a responsive and dynamic user interface . On the flip side, Node.js and Express.js orchestrate the backend with finesse , handling server-side requests and API integrations like seasoned maestros.",
       footerLink: [
         {
           name: "Visit Website",
@@ -248,7 +249,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Quiz-app.png"),
       projectName: "Quiz",
-      projectDesc: "Developed a React.js quiz app with multiple-choice questions that tests user's knowledge and displays their marks.",
+      projectDesc: "I've built a dynamic React.js quiz application employing various technologies, including React.js, CSS, and HTML. This app offers a responsive design, ensuring it functions flawlessly on different devices, and it assesses users' knowledge through multiple-choice questions, displaying their scores for an engaging experience.",
       footerLink: [
         {
           name: "Visit Website",
@@ -261,31 +262,31 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 const upcommingProjects = {
-  title: "Upcomming Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  // title: "Upcomming Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Recipe-app.png"),
-      projectName: "Recipe Share",
-      projectDesc: "Recipe Share: A React.js app enabling users to share and discover delicious recipes, fostering culinary inspiration and community.",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://Hashtag404.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      image: require("./assets/images/Capture.JPG"),
+      projectName: "Tryp",
+      projectDesc: " I'm thrilled to introduce my latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
+      footerLink: [
+        {
+          name: "Visit GitHub URL",
+          url: "https://github.com/Priyanshu0713/tryp_landingPage"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
-      image: require("./assets/images/myhelper.png"),
-      projectName: "MyHelper",
-      projectDesc: "An app connecting users with local service providers, facilitating efficient hiring of plumbers, mechanics, and drivers based on location.",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://MyHelper.com/"
-      //   }
-      // ]
+      image: require("./assets/images/cwh_1.JPG"),
+      projectName: "CodeWithHarry",
+      projectDesc: "In my React.js practice, I undertook a remarkable project: cloning the CodeWithHarry.com website. What sets this project apart is that I ensured the design was fully responsive, catering to users on any device! This endeavor was not for a company, but it served as a pivotal learning experience. With each line of code, I crafted a seamless user experience across a wide range of devices.",
+      footerLink: [
+        {
+          name: "Visit GitHub URL",
+          url: "https://github.com/Priyanshu0713/clone_codeWithHarry"
+        }
+      ]
     },
   ],
 
@@ -362,14 +363,20 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://mrpriyanshu.hashnode.dev/exploring-the-web-development-universe-javascript-reactjs-and-the-latest-tech-trends",
+      title: "🚀 Exploring the Web Development Universe: JavaScript, ReactJS, and the Latest Tech Trends! 🌐",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "👋 Welcome to my corner of the web, where we embark on a thrilling journey through the ever-expanding cosmos of web development! 🚀💻"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://mrpriyanshu.hashnode.dev/exciting-news-in-ai-audio-generation",
+      title: "🔊 Exciting News in AI Audio Generation!",
+      description:
+        "Introducing 'Stable Audio' by Stability AI 🎶, a cutting-edge latent diffusion model. This breakthrough promises to reshape the world of generative AI, and here's why ?"
+    },
+    {
+      url: "https://mrpriyanshu.hashnode.dev/the-react-revolution-from-birth-to-dominance-part-1",
+      title: "🚀 The React Revolution: From Birth to Dominance",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
