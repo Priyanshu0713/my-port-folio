@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Priyanshu0713",
   linkedin: "https://www.linkedin.com/in/priyanshu-kumar-singh-ba551b24b/",
-  gmail: "priyanshusingh8518@gmail.com",
+  gmail: "713priyanshu@gmail.com",
   medium: "https://medium.com/@713priyanshusingh",
   fiverr: "https://www.fiverr.com/priyanshu0713",
   display: true // Set true to display this section, defaults to false
@@ -136,16 +136,16 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Madhav Institute Of Technology And Science (MITS) Gwalior",
-      logo: require("./assets/images/mitslogo.jpg"),
-      subHeader: "Master of Computer Application",
-      duration: "May 2021 - April 2023",
-      desc: "Skills :",
-      descBullets: [
-        "React.js · Next.js · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML) · C (Programming Language)",
-      ]
-    },
+    // {
+    //   schoolName: "Madhav Institute Of Technology And Science (MITS) Gwalior",
+    //   logo: require("./assets/images/mitslogo.jpg"),
+    //   subHeader: "Master of Computer Application",
+    //   duration: "May 2021 - April 2023",
+    //   desc: "Skills :",
+    //   descBullets: [
+    //     "React.js · Next.js · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML) · C (Programming Language)",
+    //   ]
+    // },
     {
       schoolName: "Medicaps University Indore",
       logo: require("./assets/images/medicapslogo.png"),
@@ -153,7 +153,9 @@ const educationInfo = {
       duration: "April 2018 - April 2021",
       desc: "Skills :",
       descBullets: [
-        "Visual Studio · Microsoft Word · Microsoft PowerPoint · Microsoft Excel · Microsoft Office · Event Planning · Event Management "
+        "Frontend - React.js · Next.js · javaScript · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML)",
+        "Software Programming/ Packages -  C · Visual Studio Code · Slack",
+        "Version control - Github",
       ]
     }
   ]
@@ -197,11 +199,11 @@ const workExperiences = {
     //   ]
     // },
     {
-      role: "Web Developer",
-      company: "Fiverr",
-      companylogo: require("./assets/images/fiverr.png"),
-      date: "July 2023 - Present",
-      desc: "Just started my freelancing journey on Fiverr.com, specializing in web development.Ready to tackle web projects, I'm passionate about creating stunning and functional websites that meet your needs. Whether it's a personal blog, a business site, or an e-commerce platform, I'm here to bring your vision to life. I'm dedicated to delivering top-notch web solutions. Let's work together to build something amazing!Ready to turn your web ideas into reality!"
+      role: "Front-End Developer",
+      company: "Hashtag 404",
+      companylogo: require("./assets/images/hashtag404.png"),
+      date: "Jan 2023 – Present",
+      desc: "I work as a web developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
     },
     {
       role: "Technical Blogger",
@@ -211,11 +213,11 @@ const workExperiences = {
       desc: "I've just embarked on my freelancing adventure on Hashnode.com, where I delve into cutting-edge technologies, explore the latest AI tools, discuss cybersecurity trends, and dive deep into various development languages. Join me on a journey to discover the ever-evolving world of tech, as we explore, learn, and innovate together. Stay informed and inspired with my regular updates!"
     },
     {
-      role: "Front-End Developer",
-      company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag404.png"),
-      date: "Jan 2023 – July 2023",
-      desc: "I work as a web developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
+      role: "Jr. Software Developer",
+      company: "Onisol Systems",
+      companylogo: require("./assets/images/onisol.jpg"),
+      date: "Oct 2021 - Dec 2022",
+      desc: "As a Frontend Developer at Onisol Systems, I had the opportunity to contribute my skills and expertise to a dynamic and innovative company. My role primarily revolved around working with React JS, a cutting-edge technology for building interactive and responsive user interfaces. During my time at Onisol Systems, I was responsible for a range of critical tasks, including troubleshooting and redesigning frontend projects."
     },
   ]
 };
@@ -239,22 +241,22 @@ const bigProjects = {
       projectName: "Hashtag 404",
       projectDesc: "The hashtag404 website is a harmonious blend of web development technologies . React.js and Next.js grace the front-end with their magic , conjuring a responsive and dynamic user interface . On the flip side, Node.js and Express.js orchestrate the backend with finesse , handling server-side requests and API integrations like seasoned maestros.",
       footerLink: [
-        {
-          name: "Visit Website",
-          // url: "http://Hashtag404.com/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://Hashtag404.com/"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/Quiz-app.png"),
-      projectName: "Quiz",
-      projectDesc: "I've built a dynamic React.js quiz application employing various technologies, including React.js, CSS, and HTML. This app offers a responsive design, ensuring it functions flawlessly on different devices, and it assesses users' knowledge through multiple-choice questions, displaying their scores for an engaging experience.",
+      image: require("./assets/images/myhelper.png"),
+      projectName: "MyHelper",
+      projectDesc: "The MyHelper project aims to connect users with local service providers via a user-friendly interface. It was built with HTML, CSS, React.js, JavaScript for a visually pleasing and efficient platform. The project's robust back end efficiently handles user requests and worker profiles, ensuring users find the help they need precisely when and where they need it.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://quiz-app-alpha-ebon.vercel.app"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "https://quiz-app-alpha-ebon.vercel.app"
+        // }
       ]
     },
   ],
@@ -271,19 +273,19 @@ const upcommingProjects = {
       projectDesc: " I'm thrilled to introduce my latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
       footerLink: [
         {
-          name: "Visit GitHub URL",
+          name: "Visit Website",
           url: "https://github.com/Priyanshu0713/tryp_landingPage"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/cwh_1.JPG"),
+      image: require("./assets/images/cwh_2.JPG"),
       projectName: "CodeWithHarry",
       projectDesc: "In my React.js practice, I undertook a remarkable project: cloning the CodeWithHarry.com website. What sets this project apart is that I ensured the design was fully responsive, catering to users on any device! This endeavor was not for a company, but it served as a pivotal learning experience. With each line of code, I crafted a seamless user experience across a wide range of devices.",
       footerLink: [
         {
-          name: "Visit GitHub URL",
+          name: "Visit Website",
           url: "https://github.com/Priyanshu0713/clone_codeWithHarry"
         }
       ]
@@ -338,16 +340,19 @@ const achievementSection = {
     },
 
     {
-      title: "Web Developer",
-      subtitle: "Completed Certifcation from Hashtag 404 for Web Development",
-      image: require("./assets/images/hashtag404.png"),
+      title: "React JS Web Development - The Essentials Bootcamp by Udemy",
+      subtitle: "Completed Certifcation from Udemy for React JS Web Development",
+      image: require("./assets/images/udemy.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/1Lr-2eXt1rzwhtyqy_XcEL_gYZdH_FlDL/view?usp=sharing" },
         {
-          name: "Final Project",
-          // url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Certification",
+          // url: "https://drive.google.com/file/d/1Lr-2eXt1rzwhtyqy_XcEL_gYZdH_FlDL/view?usp=sharing"
+        },
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
