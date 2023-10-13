@@ -241,22 +241,23 @@ const bigProjects = {
       projectName: "Hashtag 404",
       projectDesc: "The hashtag404 website is a harmonious blend of web development technologies . React.js and Next.js grace the front-end with their magic , conjuring a responsive and dynamic user interface . On the flip side, Node.js and Express.js orchestrate the backend with finesse , handling server-side requests and API integrations like seasoned maestros.",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "http://Hashtag404.com/"
-        // }
+        {
+          name: "Visit Website",
+          url: "http://Hashtag404.com/"
+        }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/myhelper.png"),
-      projectName: "MyHelper",
-      projectDesc: "The MyHelper project aims to connect users with local service providers via a user-friendly interface. It was built with HTML, CSS, React.js, JavaScript for a visually pleasing and efficient platform. The project's robust back end efficiently handles user requests and worker profiles, ensuring users find the help they need precisely when and where they need it.",
+      image: require("./assets/images/Capture.JPG"),
+      projectName: "Tryp",
+      projectDesc: "My latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "https://quiz-app-alpha-ebon.vercel.app"
-        // }
+        {
+          name: "Visit Website",
+          url: "https://github.com/Priyanshu0713/tryp_landingPage"
+        }
+        //  you can add extra buttons here.
       ]
     },
   ],
@@ -268,15 +269,14 @@ const upcommingProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Capture.JPG"),
-      projectName: "Tryp",
-      projectDesc: " I'm thrilled to introduce my latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
+      image: require("./assets/images/myhelper.png"),
+      projectName: "MyHelper",
+      projectDesc: "The MyHelper project aims to connect users with local service providers via a user-friendly interface. It was built with HTML, CSS, React.js, JavaScript for a visually pleasing and efficient platform. The project's robust back end efficiently handles user requests and worker profiles, ensuring users find the help they need precisely when and where they need it.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/Priyanshu0713/tryp_landingPage"
-        }
-        //  you can add extra buttons here.
+        // {
+        //   name: "Visit Website",
+        //   url: "https://quiz-app-alpha-ebon.vercel.app"
+        // }
       ]
     },
     {
