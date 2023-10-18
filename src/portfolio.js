@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyanshu Singh",
   title: "Hi all, I'm Priyanshu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nextjs / HTML / CSS / Material-UI / Chakra-UI and some other cool libraries and frameworks."
+    "A passionate Front-end Developer 🚀 having 2+ Years experience of building Web applications with JavaScript / Reactjs / Nextjs / HTML / CSS / Material-UI / Chakra-UI and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1RgzNTG9bKxn0JcK4Nv6Ku4cXe4R3jT1H/view?usp=drive_link", // Set to empty to hide the button
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/Priyanshu0713",
   linkedin: "https://www.linkedin.com/in/priyanshu-kumar-singh-ba551b24b/",
   gmail: "713priyanshu@gmail.com",
-  medium: "https://medium.com/@713priyanshusingh",
+  medium: "https://mrpriyanshu.hashnode.dev/",
   fiverr: "https://www.fiverr.com/priyanshu0713",
   display: true // Set true to display this section, defaults to false
 };
@@ -203,7 +203,7 @@ const workExperiences = {
       company: "Hashtag 404",
       companylogo: require("./assets/images/hashtag404.png"),
       date: "Jan 2023 – Present",
-      desc: "I work as a web developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
+      desc: "I work as a Front-end Developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
     },
     {
       role: "Technical Blogger",
@@ -217,7 +217,7 @@ const workExperiences = {
       company: "Onisol Systems",
       companylogo: require("./assets/images/onisol.jpg"),
       date: "Oct 2021 - Dec 2022",
-      desc: "As a Frontend Developer at Onisol Systems, I had the opportunity to contribute my skills and expertise to a dynamic and innovative company. My role primarily revolved around working with React JS, a cutting-edge technology for building interactive and responsive user interfaces. During my time at Onisol Systems, I was responsible for a range of critical tasks, including troubleshooting and redesigning frontend projects."
+      desc: "As a Jr Software Developer at Onisol Systems, I had the opportunity to contribute my skills and expertise to a dynamic and innovative company. My role primarily revolved around working with React JS, a cutting-edge technology for building interactive and responsive user interfaces. During my time at Onisol Systems, I was responsible for a range of critical tasks, including troubleshooting and redesigning frontend projects."
     },
   ]
 };
@@ -241,10 +241,10 @@ const bigProjects = {
       projectName: "Hashtag 404",
       projectDesc: "The hashtag404 website is a harmonious blend of web development technologies . React.js and Next.js grace the front-end with their magic , conjuring a responsive and dynamic user interface . On the flip side, Node.js and Express.js orchestrate the backend with finesse , handling server-side requests and API integrations like seasoned maestros.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://Hashtag404.com/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://Hashtag404.com/"
+        // }
         //  you can add extra buttons here.
       ]
     },
@@ -253,10 +253,10 @@ const bigProjects = {
       projectName: "Tryp",
       projectDesc: "My latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/Priyanshu0713/tryp_landingPage"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "https://github.com/Priyanshu0713/tryp_landingPage"
+        // }
         //  you can add extra buttons here.
       ]
     },
@@ -284,10 +284,10 @@ const upcommingProjects = {
       projectName: "CodeWithHarry",
       projectDesc: "In my React.js practice, I undertook a remarkable project: cloning the CodeWithHarry.com website. What sets this project apart is that I ensured the design was fully responsive, catering to users on any device! This endeavor was not for a company, but it served as a pivotal learning experience. With each line of code, I crafted a seamless user experience across a wide range of devices.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/Priyanshu0713/clone_codeWithHarry"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "https://github.com/Priyanshu0713/clone_codeWithHarry"
+        // }
       ]
     },
   ],
