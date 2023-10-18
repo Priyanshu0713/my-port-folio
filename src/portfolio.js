@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Front-end Developer 🚀 having 2+ Years experience of building Web applications with JavaScript / Reactjs / Nextjs / HTML / CSS / Material-UI / Chakra-UI and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1h2rh6xFPeQNUzEussnc0SSbjbWYomOtf/view?usp=share_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bxgqHCqK5zAwkkmKX90RltnFyH1BVEuv/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
