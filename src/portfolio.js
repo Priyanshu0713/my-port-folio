@@ -23,10 +23,10 @@ const greeting = {
   username: "Priyanshu Singh",
   title: "Hi all, I'm Priyanshu",
   subTitle: emoji(
-    "A passionate Front-end Developer 🚀 having 2+ Years experience of building Web applications with JavaScript / Reactjs / Nextjs / HTML / CSS / Material-UI / Chakra-UI and some other cool libraries and frameworks."
+    "An Experienced Data Scientist with over 2 years+ of expertise | AI Specialist adept in Prototype Development, ML/DL Model Productionization, Data Pipelining, and AWS Deployment 💼💡🚀 | Leveraging Python / Pandas / NumPy / scikit-learn / TensorFlow / PyTorch to drive actionable insights and scalable solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bxgqHCqK5zAwkkmKX90RltnFyH1BVEuv/view?usp=share_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1COfDn26JgDg4Zxw1x3quLgr-XcSlWFF0/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Priyanshu0713",
   linkedin: "https://www.linkedin.com/in/priyanshu-kumar-singh-ba551b24b/",
-  gmail: "713priyanshu@gmail.com",
+  gmail: "Priyanshuds001@gmail.com",
   medium: "https://mrpriyanshu.hashnode.dev/",
   fiverr: "https://www.fiverr.com/priyanshu0713",
   display: true // Set true to display this section, defaults to false
@@ -45,15 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "⚡ Analyze data, Develop machine learning models and deploy solutions to derive actionable insights and drive business decisions.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Harness the power of data to craft intelligent solutions, drive informed decisions, and unlock actionable insights through advanced analytics and machine learning techniques."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal "),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    emoji("⚡ I also build things for the web and mobile devices."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -62,26 +59,65 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
 
     {
+      skillName: "Data Science",
+      fontAwesomeClassname: "fab fa-gripfire"
+    },
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-book-open"
+    },
+    {
+      skillName: "Deep Learning",
+      fontAwesomeClassname: "fas fa-laptop-code"
+    },
+    {
+      skillName: "Natural Language Processing (NLP)",
+      fontAwesomeClassname: "fas fa-laptop"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: "fa-brands fa-python"
+    },
+    {
+      skillName: "Matplotlib",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Data Visualization",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Data Presentation",
+      fontAwesomeClassname: "fas fa-book"
+    },
+    {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fas fa-user"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "Nextjs",
       fontAwesomeClassname: "fab fa-reacteurope"
-      // fontAwesomeClassname: "fa-brands fa-js"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    // {
-    //   skillName: "ExpressJs(Basic)",
-    //   fontAwesomeClassname: "fas fa-server"
-    // },
-    // {
-    //   skillName: "MongoDB(Basic)",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
     {
       skillName: "Html",
       fontAwesomeClassname: "fab fa-html5"
@@ -109,10 +145,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "VScode",
       fontAwesomeClassname: "fab fa-microsoft"
-    },
-    {
-      skillName: "Redux",
-      fontAwesomeClassname: "fab fa-gripfire"
     },
     {
       skillName: "Material-UI",
@@ -167,17 +199,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Science/Artificial Intelligence/Machine Learning",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "20%"
+      Stack: "Python",
+      progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "30%"
-    }
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "40%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -199,25 +235,25 @@ const workExperiences = {
     //   ]
     // },
     {
-      role: "Front-End Developer",
-      company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag404.png"),
-      date: "Jan 2023 – Present",
-      desc: "I work as a Front-end Developer at Hashtag 404, specializing in React.js, Next.js, and javaScript. I'm also proficient in using  GitHub,  CSS, and  HTML.My primary goal was designing seamless user interfaces and visually captivating layouts, with the aim of providing outstanding web experiences. I'm thrilled about the prospect of collaborating on creative projects that not only meet but exceed expectations. Let's team up and bring innovation to life!"
+      role: "Data Scientist",
+      company: "RiteServe",
+      companylogo: require("./assets/images/hashtag.png"),
+      date: "Dec 2021 – Present",
+      desc: "👨‍💻 Excited to embark on my journey as a Data Scientist, bringing expertise in Python, SQL, and machine learning algorithms. Proficient in data visualization with tools like Matplotlib and Seaborn. 📊 Currently, I'm diving deep into the world of data analysis, predictive modeling, and statistical techniques. 🚀 Eager to collaborate on innovative projects and contribute to impactful insights through data-driven solutions! 💡💻📈"
     },
     {
       role: "Technical Blogger",
       company: "Hashnode",
       companylogo: require("./assets/images/hashnode.jpg"),
       date: "July 2023 - Present",
-      desc: "I've just embarked on my freelancing adventure on Hashnode.com, where I delve into cutting-edge technologies, explore the latest AI tools, discuss cybersecurity trends, and dive deep into various development languages. Join me on a journey to discover the ever-evolving world of tech, as we explore, learn, and innovate together. Stay informed and inspired with my regular updates!"
+      desc: "🚀 I'm a dedicated technical blogger on Hashnode, where I share insights on diverse topics, including web development, cybersecurity, Information technology, Artificial intelligence, and more.\n💡 With a passion for delivering well-researched and highly informative content, I consistently publish two detailed and resourceful blog posts every week.\n🌐 My blogs aim to demystify complex subjects, making them easily understandable for readers. Explore my articles for in-depth explanations and access to valuable resources."
     },
     {
-      role: "Jr. Software Developer",
-      company: "Onisol Systems",
-      companylogo: require("./assets/images/onisol.jpg"),
-      date: "Oct 2021 - Dec 2022",
-      desc: "As a Jr Software Developer at Onisol Systems, I had the opportunity to contribute my skills and expertise to a dynamic and innovative company. My role primarily revolved around working with React JS, a cutting-edge technology for building interactive and responsive user interfaces. During my time at Onisol Systems, I was responsible for a range of critical tasks, including troubleshooting and redesigning frontend projects."
+      role: "Frontend Developer",
+      company: "Hashtag 404",
+      companylogo: require("./assets/images/hashtag404.png"),
+      date: "May 2021 - Nov 2021",
+      desc: "👨‍💻 I was working as a Front-end Developer at Hashtag 404, specializing in React.js, Next.js, and JavaScript. I'm also proficient in using GitHub, CSS, and HTML. 🚀 Leading a dynamic team in the ongoing redesign of the official website with React, Chakra-UI, and a focus on responsive design. Collaborating seamlessly on GitHub and managing packages with npm.\n🌟 Currently mastering JavaScript, React.js, Next.js, HTML, CSS, and C programming. Always ready for new challenges and eager to enhance my skills! 💪🌐🎨👨‍💻"
     },
   ]
 };
@@ -237,9 +273,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/hashtag404.png"),
-      projectName: "Hashtag 404",
-      projectDesc: "The hashtag404 website is a harmonious blend of web development technologies . React.js and Next.js grace the front-end with their magic , conjuring a responsive and dynamic user interface . On the flip side, Node.js and Express.js orchestrate the backend with finesse , handling server-side requests and API integrations like seasoned maestros.",
+      image: require("./assets/images/hashtag.png"),
+      projectName: "JD- Resume relevance score",
+      projectDesc: "Implemented POC for getting a relevance score of resume against the Job description \n based on extracted data points like skillset, experience, location, etc. This helped the \n recruiters to identify the right candidate for a position and reduces the overall hiring processtime by 15%.candidate resume and compare them against the job description.",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -249,9 +285,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Capture.JPG"),
-      projectName: "Tryp",
-      projectDesc: "My latest project—a captivating landing page crafted with the magic of React.js, HTML, and CSS. This creation combines the power of modern web development technologies to conjure an engaging and user-friendly online experience .This React.js landing page serves as a testament to the endless possibilities of modern web development. .",
+      image: require("./assets/images/hashtag.png"),
+      projectName: "Interview Proctoring with facial Recognition",
+      projectDesc: "Developed the facial recognition module which identifies whether the legitimate\n candidate is taking the interview or not, and alerts the recruiter if multiple persons are \n found during the interview process. With the help of this system, recruiters are able to\n identify the candidates who are trying to deceive the interview engine.",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -269,9 +305,9 @@ const upcommingProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/myhelper.png"),
-      projectName: "MyHelper",
-      projectDesc: "The MyHelper project aims to connect users with local service providers via a user-friendly interface. It was built with HTML, CSS, React.js, JavaScript for a visually pleasing and efficient platform. The project's robust back end efficiently handles user requests and worker profiles, ensuring users find the help they need precisely when and where they need it.",
+      image: require("./assets/images/hashtag.png"),
+      projectName: "Information Retrieval and Data Analysis",
+      projectDesc: "Retrieved data from Newrelic APM tools and performed analysis on the application data to understand the different metrics and status of the production application.",
       footerLink: [
         // {
         //   name: "Visit Website",
