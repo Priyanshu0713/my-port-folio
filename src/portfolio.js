@@ -23,10 +23,10 @@ const greeting = {
   username: "Priyanshu Singh",
   title: "Hi all, I'm Priyanshu",
   subTitle: emoji(
-    "An Experienced Data Scientist with over 2 years+ of expertise | AI Specialist adept in Prototype Development, ML/DL Model Productionization, Data Pipelining, and AWS Deployment 💼💡🚀 | Leveraging Python / Pandas / NumPy / scikit-learn / TensorFlow / PyTorch to drive actionable insights and scalable solutions."
+    "An ambitious Frontend Developer with 1+ years of experience, skilled in React.js, Next.js, JavaScript, CSS, HTML, and Material UI. 🌟 Passionate about crafting seamless user experiences and building responsive web applications. 💻 Leveraging expertise in frontend technologies to drive innovation and deliver dynamic solutions. 🚀 Ready to collaborate and contribute to the development of cutting-edge projects!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1COfDn26JgDg4Zxw1x3quLgr-XcSlWFF0/view?usp=drivesdk", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CfBjG3A16x5OUtDAVfFQBy4jhopjALcL/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Priyanshu0713",
   linkedin: "https://www.linkedin.com/in/priyanshu-kumar-singh-ba551b24b/",
-  gmail: "Priyanshuds001@gmail.com",
+  gmail: "Priyanshusingh8518@gmail.com",
   medium: "https://mrpriyanshu.hashnode.dev/",
   fiverr: "https://www.fiverr.com/priyanshu0713",
   display: true // Set true to display this section, defaults to false
@@ -45,12 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "⚡ Analyze data, Develop machine learning models and deploy solutions to derive actionable insights and drive business decisions.",
+  subTitle: "⚡ Crafting Engaging Interfaces: My focus lies in designing user interfaces that are not only visually appealing but also intuitive, ensuring a delightful user experience.",
   skills: [
     emoji(
-      "⚡ Harness the power of data to craft intelligent solutions, drive informed decisions, and unlock actionable insights through advanced analytics and machine learning techniques."
+      "⚡ Building Responsive Web Apps: 💻 Using React.js, Next.js, and Material UI, I develop web applications that seamlessly adapt to various devices, providing users with a consistent experience across platforms."
     ),
-    emoji("⚡ I also build things for the web and mobile devices."),
+    emoji("⚡ I thrive in collaborative settings, leveraging teamwork to brainstorm ideas, share insights, and push the boundaries of frontend development."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -58,54 +58,50 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
 
-    {
-      skillName: "Data Science",
-      fontAwesomeClassname: "fab fa-gripfire"
-    },
-    {
-      skillName: "Machine Learning",
-      fontAwesomeClassname: "fas fa-book-open"
-    },
-    {
-      skillName: "Deep Learning",
-      fontAwesomeClassname: "fas fa-laptop-code"
-    },
-    {
-      skillName: "Natural Language Processing (NLP)",
-      fontAwesomeClassname: "fas fa-laptop"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "NumPy",
-      fontAwesomeClassname: "fa-brands fa-python"
-    },
-    {
-      skillName: "Matplotlib",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Pandas",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "Data Visualization",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Data Presentation",
-      fontAwesomeClassname: "fas fa-book"
-    },
-    {
-      skillName: "Data Analysis",
-      fontAwesomeClassname: "fas fa-user"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "Data Science",
+    //   fontAwesomeClassname: "fab fa-gripfire"
+    // },
+    // {
+    //   skillName: "Machine Learning",
+    //   fontAwesomeClassname: "fas fa-book-open"
+    // },
+    // {
+    //   skillName: "Deep Learning",
+    //   fontAwesomeClassname: "fas fa-laptop-code"
+    // },
+    // {
+    //   skillName: "Natural Language Processing (NLP)",
+    //   fontAwesomeClassname: "fas fa-laptop"
+    // },
+    // {
+    //   skillName: "NumPy",
+    //   fontAwesomeClassname: "fa-brands fa-python"
+    // },
+    // {
+    //   skillName: "Matplotlib",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "Pandas",
+    //   fontAwesomeClassname: "fab fa-java"
+    // },
+    // {
+    //   skillName: "Data Visualization",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "Data Presentation",
+    //   fontAwesomeClassname: "fas fa-book"
+    // },
+    // {
+    //   skillName: "Data Analysis",
+    //   fontAwesomeClassname: "fas fa-user"
+    // },
+    // {
+    //   skillName: "SQL",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -154,10 +150,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Chakra-UI",
       fontAwesomeClassname: "fas fa-cut"
     },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -168,16 +168,16 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    // {
-    //   schoolName: "Madhav Institute Of Technology And Science (MITS) Gwalior",
-    //   logo: require("./assets/images/mitslogo.jpg"),
-    //   subHeader: "Master of Computer Application",
-    //   duration: "May 2021 - April 2023",
-    //   desc: "Skills :",
-    //   descBullets: [
-    //     "React.js · Next.js · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML) · C (Programming Language)",
-    //   ]
-    // },
+    {
+      schoolName: "Madhav Institute Of Technology And Science (MITS) Gwalior",
+      logo: require("./assets/images/mitslogo.jpg"),
+      subHeader: "Master of Computer Application",
+      duration: "May 2021 - April 2023",
+      desc: "Skills :",
+      descBullets: [
+        "Frontend - React.js · Next.js · javaScript · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML)",
+      ]
+    },
     {
       schoolName: "Medicaps University Indore",
       logo: require("./assets/images/medicapslogo.png"),
@@ -185,8 +185,7 @@ const educationInfo = {
       duration: "April 2018 - April 2021",
       desc: "Skills :",
       descBullets: [
-        "Frontend - React.js · Next.js · javaScript · Cascading Style Sheets (CSS) · Hyper Text Markup Language (HTML)",
-        "Software Programming/ Packages -  C · Visual Studio Code · Slack",
+        "Software Programming/ Packages -  Python · C · Visual Studio Code · Slack",
         "Version control - Github",
       ]
     }
@@ -198,21 +197,21 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    // {
+    //   Stack: "Data Science/Artificial Intelligence/Machine Learning",
+    //   progressPercentage: "60%"
+    // },
     {
-      Stack: "Data Science/Artificial Intelligence/Machine Learning",
-      progressPercentage: "60%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "40%" //Insert relative proficiency in percentage
+      progressPercentage: "50%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -235,11 +234,11 @@ const workExperiences = {
     //   ]
     // },
     {
-      role: "Data Scientist",
+      role: "Jr Frontend Developer",
       company: "RiteServe",
       companylogo: require("./assets/images/hashtag.png"),
-      date: "Dec 2021 – Present",
-      desc: "👨‍💻 Excited to embark on my journey as a Data Scientist, bringing expertise in Python, SQL, and machine learning algorithms. Proficient in data visualization with tools like Matplotlib and Seaborn. 📊 Currently, I'm diving deep into the world of data analysis, predictive modeling, and statistical techniques. 🚀 Eager to collaborate on innovative projects and contribute to impactful insights through data-driven solutions! 💡💻📈"
+      date: "Jan 2023 – Present",
+      desc: "👨‍💻 I am working as a Jr Front-end Developer at RiteServe, specializing in React.js, Next.js, and JavaScript. I'm also proficient in using GitHub, CSS, and HTML. 🚀 Leading a dynamic team in the ongoing redesign of the official website with React, Chakra-UI, and a focus on responsive design. Collaborating seamlessly on GitHub and managing packages with npm.\n🌟 Currently mastering JavaScript, React.js, Next.js, HTML, CSS, and C programming. Always ready for new challenges and eager to enhance my skills! 💪🌐🎨👨‍💻"
     },
     {
       role: "Technical Blogger",
@@ -249,11 +248,11 @@ const workExperiences = {
       desc: "🚀 I'm a dedicated technical blogger on Hashnode, where I share insights on diverse topics, including web development, cybersecurity, Information technology, Artificial intelligence, and more.\n💡 With a passion for delivering well-researched and highly informative content, I consistently publish two detailed and resourceful blog posts every week.\n🌐 My blogs aim to demystify complex subjects, making them easily understandable for readers. Explore my articles for in-depth explanations and access to valuable resources."
     },
     {
-      role: "Frontend Developer",
-      company: "Hashtag 404",
-      companylogo: require("./assets/images/hashtag404.png"),
-      date: "May 2021 - Nov 2021",
-      desc: "👨‍💻 I was working as a Front-end Developer at Hashtag 404, specializing in React.js, Next.js, and JavaScript. I'm also proficient in using GitHub, CSS, and HTML. 🚀 Leading a dynamic team in the ongoing redesign of the official website with React, Chakra-UI, and a focus on responsive design. Collaborating seamlessly on GitHub and managing packages with npm.\n🌟 Currently mastering JavaScript, React.js, Next.js, HTML, CSS, and C programming. Always ready for new challenges and eager to enhance my skills! 💪🌐🎨👨‍💻"
+      role: "Software Intern",
+      company: "Onisole Systems",
+      companylogo: require("./assets/images/onisol.jpg"),
+      date: "June 2022 – Nov 2022",
+      desc: "👨‍💻 As a software intern at Onisol Systems, 🖥️ I dived into the world of coding 🚀. Each day brought new challenges and learning opportunities. 💡 With experienced mentors, I honed my skills in coding, testing, and debugging. 🛠️ Being part of a team designing a new feature was a highlight, showing me the importance of teamwork 🤝 and communication. Overall, my internship was an amazing journey preparing me for a career in tech! 🌟"
     },
   ]
 };
@@ -273,9 +272,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/hashtag.png"),
-      projectName: "JD- Resume relevance score",
-      projectDesc: "Implemented POC for getting a relevance score of resume against the Job description \n based on extracted data points like skillset, experience, location, etc. This helped the \n recruiters to identify the right candidate for a position and reduces the overall hiring processtime by 15%.candidate resume and compare them against the job description.",
+      image: require("./assets/images/hashtag404.png"),
+      projectName: "Redesign the official website of Hashtag404.com",
+      projectDesc: "I revamped the official website of Hashtag404, infusing it with a fresh look and enhanced functionality! 🚀 Leveraging ReactJS, Next.js, CSS, HTML, and Material UI, I crafted a seamless user experience that captivated visitors. 💻 From sleek design elements to intuitive navigation, every detail was meticulously tailored to reflect Hashtag404's innovative spirit.🌐",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -285,9 +284,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/hashtag.png"),
-      projectName: "Interview Proctoring with facial Recognition",
-      projectDesc: "Developed the facial recognition module which identifies whether the legitimate\n candidate is taking the interview or not, and alerts the recruiter if multiple persons are \n found during the interview process. With the help of this system, recruiters are able to\n identify the candidates who are trying to deceive the interview engine.",
+      image: require("./assets/images/tryp.JPG"),
+      projectName: "Enhancing the Landing Page Experience for Type.com",
+      projectDesc: "I led the transformation of tryp.com into a cutting-edge platform that redefined the travel agency experience! ✈️ Combining ReactJS, Next.js, CSS, HTML, and Material UI, I crafted a user-friendly interface that inspires wanderlust and simplifies travel planning. 🌍 From seamless booking flows to interactive destination guides, every feature was designed to delight users and streamline their journey from exploration to booking. With tryp.com, travel has never been more accessible or exciting! 🏖️",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -305,9 +304,9 @@ const upcommingProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/hashtag.png"),
-      projectName: "Information Retrieval and Data Analysis",
-      projectDesc: "Retrieved data from Newrelic APM tools and performed analysis on the application data to understand the different metrics and status of the production application.",
+      image: require("./assets/images/myhelper.jpg"),
+      projectName: "Build MyHelper.com: Find Workers Near Your Location",
+      projectDesc: "MyHelper.com: 🏠 Your Local Solution for Hiring Skilled Workers! 🛠️ Powered by React.js, Material UI, CSS, HTML, and JavaScript, our platform makes it simple to find workers near you. From plumbers to electricians, browse profiles and hire with confidence. With user-friendly design and robust features, MyHelper.com streamlines your search for home services!",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -318,7 +317,7 @@ const upcommingProjects = {
     {
       image: require("./assets/images/cwh_2.JPG"),
       projectName: "CodeWithHarry",
-      projectDesc: "In my React.js practice, I undertook a remarkable project: cloning the CodeWithHarry.com website. What sets this project apart is that I ensured the design was fully responsive, catering to users on any device! This endeavor was not for a company, but it served as a pivotal learning experience. With each line of code, I crafted a seamless user experience across a wide range of devices.",
+      projectDesc: " 💻In my React.js practice, I undertook a remarkable project: cloning the CodeWithHarry.com website 🌍. What sets this project apart is that I ensured the design was fully responsive, catering to users on any device! This endeavor was not for a company, but it served as a pivotal learning experience. With each line of code, I crafted a seamless user experience across a wide range of devices.",
       footerLink: [
         // {
         //   name: "Visit Website",
