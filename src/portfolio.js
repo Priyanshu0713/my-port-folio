@@ -26,7 +26,7 @@ const greeting = {
     "An ambitious Frontend Developer with 1+ years of experience, skilled in React.js, Next.js, JavaScript, CSS, HTML, and Material UI. 🌟 Passionate about crafting seamless user experiences and building responsive web applications. 💻 Leveraging expertise in frontend technologies to drive innovation and deliver dynamic solutions. 🚀 Ready to collaborate and contribute to the development of cutting-edge projects!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1CfBjG3A16x5OUtDAVfFQBy4jhopjALcL/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1qImGbAaDyPe88q6ckY8wraJo4buSqUhB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
